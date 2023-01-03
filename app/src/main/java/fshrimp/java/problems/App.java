@@ -3,8 +3,11 @@
  */
 package fshrimp.java.problems;
 
+import fshrimp.java.problems.chap1.Problem2;
 
 public class App {
   public static void main(String[] args) {
+
+    System.out.println(Problem2.findFirstWordNonDublicated("1"));
   }
 }
