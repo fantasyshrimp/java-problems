@@ -3,11 +3,11 @@
  */
 package fshrimp.java.problems;
 
-import fshrimp.java.problems.chap1.Problem3;
+import fshrimp.java.problems.chap1.Problem4;
 
 public class App {
   public static void main(String[] args) {
 
-    System.out.println(Problem3.reverseWord("abc 123"));
+    System.out.println(Problem4.checkOnlyNumber("1"));
   }
 }
