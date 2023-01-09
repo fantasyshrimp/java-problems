@@ -3,11 +3,11 @@
  */
 package fshrimp.java.problems;
 
-import fshrimp.java.problems.chap1.Problem6;
+import fshrimp.java.problems.chap1.Problem8;
 
 public class App {
   public static void main(String[] args) {
 
-    System.out.println(Problem6.countCharInString("aaefefarhgasrgga", 'a'));
+    System.out.println(Problem8.removeEmptySpace(" aa bb  cc   d d e e  "));
   }
 }
