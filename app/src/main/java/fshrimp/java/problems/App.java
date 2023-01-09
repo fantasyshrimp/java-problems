@@ -3,11 +3,13 @@
  */
 package fshrimp.java.problems;
 
-import fshrimp.java.problems.chap1.Problem8;
+import fshrimp.java.problems.chap1.Problem9;
 
 public class App {
   public static void main(String[] args) {
 
-    System.out.println(Problem8.removeEmptySpace(" aa bb  cc   d d e e  "));
+    String[] strs = {"aa", "bb", "cc"};
+
+    System.out.println(Problem9.mergeStringBySeparator(strs, "+"));
   }
 }
